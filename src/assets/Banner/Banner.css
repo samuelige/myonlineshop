@@ -1,0 +1,72 @@
+.banner, .banner-text{
+    width: 100%;
+}
+
+.banner {
+    inline-size: 100%;
+    color: #ffffff;
+}
+
+.banner-text > h1 {
+    font-size: 56px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+
+.banner-text > p {
+    font-size: 20.6px ;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.ban-first-pTag {
+   margin: 0.8% 0px 0px 0px; 
+}
+
+.ban-second-pTag {
+    margin: 0.4% 0px 0px 0px; 
+ }
+
+ .banner-text {
+    margin: 0% 0px 29px 0px; 
+ }
+
+
+ .input-fields {
+     width: 61.6%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 78px;
+    margin: 0px 0px 0px 19.2%;
+    padding: 1% 0px 0px 3%;
+    border-radius: 5px;
+    background: #ffffff;
+    
+ }
+
+ .build-website {
+    background-color: #B9CA49;
+    border:none;
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    align-content: center;
+    /* margin: 0px 0px 0px 40px; */
+    border-radius: 10px 10px 10px 10px;
+    outline-style: none;
+}
+
+ .input-fields > input {
+     width: 35.5%;
+     border: none;
+     height: 40px;
+     margin: 1% 1% 0px 0px;
+     outline-style: none;
+     font-size: 16px;
+ }
+
+
