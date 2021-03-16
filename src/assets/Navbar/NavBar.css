@@ -1,0 +1,45 @@
+.nav-Bar, .tabs-and-button-container {
+    display: flex;
+}
+
+.nav-Bar {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.img-container {
+    width: 160px;
+    height: 60px;
+}
+
+.img-container:hover {
+    cursor: pointer;
+}
+.mainLogo {
+    width: 100%; 
+}
+
+.tabs-and-button-container {
+    width: 300px;
+    display: flex;
+    
+}
+
+
+.get-started {
+    background-color: #B9CA49;
+    border-color: #B9CA49;
+    width: 128px;
+    height: 50px;
+    color: #fff;
+    align-content: center;
+    margin: 5px 0px 0px 40px;
+    border-radius: 10px 10px 10px 10px;
+    outline-style: none;
+}
+
+.get-started:hover {
+    cursor: pointer;
+    /* box-shadow:#677788; */
+}

@@ -1,0 +1,34 @@
+.tabs, 
+.navigation {
+    width: 100%;
+}
+
+.tabs {
+    margin: 6.5% 0px 0px 0px;
+}
+
+.navigation {
+    margin-right: 40px;
+}
+
+.navigation ul {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.navigation ul li {
+    list-style: none;
+    font-weight: bold;
+    margin-left: 10%; 
+}
+
+.navigation ul li:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
