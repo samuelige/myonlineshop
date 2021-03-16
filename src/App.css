@@ -1,0 +1,17 @@
+
+.App, .Nav-bar-container {
+  width: 100%;
+}
+
+
+.Nav-bar-container {
+  background-color: #ffffff;
+  border: 1px solid black;
+  height: 100px;
+  padding: 1.8% 12% 0px 6.8%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.App{
+  height: 100vh;
+}
