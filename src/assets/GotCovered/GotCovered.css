@@ -1,0 +1,72 @@
+/* Get covered */
+.got-covered, .get-covered-image{
+    width: 100%;
+}
+
+.got-covered {
+    margin: 180px 0px 0px 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.got-covered > h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 50px;
+} 
+
+.got-covered > p {
+    line-height: 45px;
+}
+.got-covered > p {
+    font-size: 26px;
+    color: #677788;
+    
+}
+
+.first-pTag{
+    margin-top: 35px;
+}
+
+
+.start-now {
+    background-color: #B9CA49;
+    border-color: #B9CA49;
+    /* border: none; */
+    width: 173px;
+    height: 60px;
+    color: #fff;
+    margin: 26px 0px 0px 0px;
+    align-content: center;
+    border-radius: 8px;
+    outline-style: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/* Got covered Image */
+
+.get-covered-image {
+    margin: 0px 0px 0px 55px;
+}
+
+.dot-item {
+    width: 32%;
+}
+
+.rightDotSvg {
+    margin:-337px 0px 0px 342px;
+    z-index: 2;
+}
+
+.image-item {
+    width: 69%;
+    margin:-336px 0px 0px 49px;
+    border-radius: 1%;
+    position: relative;
+    z-index: 1;
+}

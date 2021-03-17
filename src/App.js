@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './assets/Banner/Banner';
+import { GotCovered, GotCoveredImage } from './assets/GotCovered/GotCovered';
 import NavBar from './assets/Navbar/NavBar';
 
 function App() {
@@ -10,6 +11,12 @@ function App() {
       </div>
       <div className="Banner-container">
         <Banner/>
+      </div>
+      <div className="got-covered-container">
+        <div className="covered"><GotCovered /></div>
+        <div className="coverImage"><GotCoveredImage /></div>
+        
+        
       </div>
     </div>
   );
