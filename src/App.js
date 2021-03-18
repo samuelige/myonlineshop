@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './assets/Banner/Banner';
+import { Comments, CommentsImage } from './assets/Comments/Comments';
 import { GotCovered, GotCoveredImage } from './assets/GotCovered/GotCovered';
 import NavBar from './assets/Navbar/NavBar';
 import Offers from './assets/Offers/Offers';
@@ -23,6 +24,10 @@ function App() {
       </div>
       <div className="Offer-container">
         <Offers />
+      </div>
+      <div className="comments-container got-covered-container">
+        <div className="comT covered"><Comments /></div>
+        <div className="commentImage coverImage"><CommentsImage /></div>
       </div>
     </div>
   );

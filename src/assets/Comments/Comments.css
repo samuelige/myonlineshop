@@ -1,0 +1,22 @@
+
+.heels {
+    width: 20%;
+}
+
+.comments > p {
+    font-weight: lighter;
+    color: black;
+}
+
+
+.comment-title {
+    margin-top: 30px;
+}
+
+.comment-title > h1 {
+    font-size: 20px;
+}
+
+.comment-title > small {
+    color: #677788;
+}
