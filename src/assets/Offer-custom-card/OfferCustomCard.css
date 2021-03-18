@@ -1,0 +1,35 @@
+.offer-custom-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100px;
+    /* justify-content: space-between; */
+
+    
+}
+
+.offer-icons {
+    width: 10%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100px;
+    margin: 50px 0px 0px 13px;
+    /* align-content: center; */
+    
+}
+
+
+.details > .title {
+    margin-bottom: 14px;
+}
+
+.details-texts {
+    color: #677788;
+    font-size: 15px;
+}
+
+
