@@ -2,6 +2,7 @@ import './App.css';
 import Banner from './assets/Banner/Banner';
 import { GotCovered, GotCoveredImage } from './assets/GotCovered/GotCovered';
 import NavBar from './assets/Navbar/NavBar';
+import Offers from './assets/Offers/Offers';
 import Plans from './assets/Plans/Plans';
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
       </div>
       <div className="plans-container">
         <Plans />
+      </div>
+      <div className="Offer-container">
+        <Offers />
       </div>
     </div>
   );
