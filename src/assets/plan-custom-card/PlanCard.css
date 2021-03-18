@@ -1,0 +1,222 @@
+.all-plans-container, .plan-card{
+    width: 100%;
+}
+
+.plan-card{
+    margin-top: 60px;
+}
+
+
+.plan-card > .circle-svg {
+    margin: -35px 0px 0px 687px;
+    width: 160px;
+    position: absolute;
+   
+}
+
+.plan-card > .plans {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 45px;
+    position: relative;
+    z-index: 2;
+    padding: 0px 0px 0px 11%;
+}
+
+.plan-dotssvg {
+    width: 15%;
+    margin: -310px 0px 0px 466px;
+}
+
+.basic-card, .bigShop-card, .customPlan-card {
+    width: 27.5%;
+    padding: 25px 0px 0px 25px;
+    background: #fff;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+
+.card-hearder {
+    display: flex;
+    width: 100%;
+}
+
+.basic-card > .card-hearder > p, .bigShop-card > .card-hearder > P {
+    margin: 10px 10px 0px 0px;
+
+}
+
+.card-hearder > p {
+    font-weight: bold;
+    font-size: 22px;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+    /* margin: 0px 10px 0px 0px; */
+}
+
+.card-hearder > h1 {
+    font-size: 40px;
+    color: #B9CA49;
+}
+.card-hearder > h1 > .month {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #677788;
+}
+
+.customPlan-card > .card-hearder > h5 {
+    margin: 3px 0px 0px 60px;
+    font-size: 15px;
+    color: #B9CA49;
+    line-height: 28px;
+}
+
+.bigShop-card > .card-hearder > p ,
+.customPlan-card > .card-hearder > p,
+.customPlan-card > .card-hearder > h5{
+    text-align: center;
+}
+
+.customPlan-card > .card-hearder {
+    margin-top: 10px;
+}
+
+.categories {
+    line-height: 40px;
+    margin-top: 35px;
+}
+
+.basic-card > .categories{
+    margin-top: 50px;
+}
+
+.item {
+    display: flex;
+}
+ .checked-icon {
+    color: #00c9a7;
+   margin: 12px 6px 0px 0px;
+ }
+
+ .item > p {
+     font-size: 14px;
+     color: #677788;
+ }
+
+ .card-input-section {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     margin: 70px 0px 20px 0px;
+ }
+
+ .select, .text-input {
+     padding: 0px 0px 0px 20px;
+ }
+
+ .select, .text-input, .card-get-Started {
+    width: 90%;
+     height: 50px;
+     outline-style: none;
+     border-radius: 5px;
+     border: 1px solid #e7eaf3;
+     font-size: 15px;
+     cursor: pointer;
+ }
+
+
+
+
+ .basic-card > .card-input-section > .select {
+    margin-top: 80px;
+ }
+
+ .card-get-Started {
+    color: #B9CA49;
+ }
+
+ .card-get-Started:hover {
+     background-color:#B9CA49 ;
+     color: #fff;
+ }
+
+ .contact-us {
+     margin-top: 172px;
+ }
+
+.bigShop-card {
+    box-shadow: 0px 8px 36px 3px rgba(103,119,136,0.19);
+}
+
+
+/* All Plans Container */
+
+.all-plans, .all-plans-container {
+    width: 100%;
+    height: 150px;
+}
+
+.all-plans {
+    padding: 0% 12% 0px 13%;
+    height: 150px;
+    
+}
+.all-plans-card {
+    padding: 3% 3% 6% 4%;
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+    box-shadow: -2px 7px 16px -2px rgba(103,119,136,0.19);
+}
+.all-plans-container {
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.all-plans-card > h2 {
+    font-size: 22px;
+}
+
+.all-plans-list > .item {
+    line-height: 35px;
+}
+
+.all-checked-icon {
+    margin: 10px 10px 0px 0px;
+    color: #ec9a3c;
+}
+
+.allPlans-btn-container {
+    width: 23.5%;
+    height: 55px;
+    border-left: 1px solid #e7eaf3;
+    background: #fff;
+    display: flex;
+    color: #677788;
+    padding: 0px 0px 0px 6%;
+    
+}
+
+.all-plans-btn {
+    width: 65%;
+    height: 55px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: #677788;
+}
+
+.arrow-right-icon {
+    margin: 21px 0px 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
