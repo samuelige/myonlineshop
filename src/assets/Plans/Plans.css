@@ -3,6 +3,10 @@
     
 }
 
+.plans {
+    height: 115vh;
+}
+
 .plans > h1 {
     color: #1e2022;
     font-weight: bold;

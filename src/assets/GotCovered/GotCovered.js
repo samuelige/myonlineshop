@@ -7,7 +7,7 @@ import rightDotSvg from '../svg/dots-2.svg'
 
 const GotCovered = () => {
     return (
-        <div className="got-covered">
+        <div className="got-covered gt-covered">
             <h1>We've Got You </h1>
             <h1>Covered</h1>
             <p className='first-pTag'>It doesn't matter what you sell, with </p>

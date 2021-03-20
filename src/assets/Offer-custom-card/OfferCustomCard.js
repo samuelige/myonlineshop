@@ -1,6 +1,5 @@
 import React from 'react'
 import './OfferCustomCard.css'
-import mobile from '../svg/icon-45.svg'
 
 const OfferCustomCard = ({otherprops}) => {
     return (
