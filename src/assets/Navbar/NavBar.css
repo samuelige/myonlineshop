@@ -17,7 +17,8 @@
     cursor: pointer;
 }
 .mainLogo {
-    width: 100%; 
+    width: 87%;
+    margin-top: 3px; 
 }
 
 .tabs-and-button-container {
@@ -29,13 +30,14 @@
 
 .get-started {
     background-color: #B9CA49;
-    border-color: #B9CA49;
-    width: 128px;
-    height: 50px;
+    /* border-color: #B9CA49; */
+    border: none;
+    width: 118px;
+    height: 45px;
     color: #fff;
     align-content: center;
-    margin: 5px 0px 0px 40px;
-    border-radius: 10px 10px 10px 10px;
+    margin: 7px 0px 0px 40px;
+    border-radius: 5px;
     outline-style: none;
 }
 

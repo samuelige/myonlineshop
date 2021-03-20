@@ -1,11 +1,14 @@
 
 .heels {
-    width: 20%;
+    width: 16%;
+    /* fill: #677788; */
+    margin:12% 0px 0px 0px;
 }
 
 .comments > p {
     font-weight: lighter;
-    color: black;
+    color: #1e2022;
+    
 }
 
 

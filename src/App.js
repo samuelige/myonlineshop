@@ -2,6 +2,8 @@ import './App.css';
 import Banner from './assets/Banner/Banner';
 import { Comments, CommentsImage } from './assets/Comments/Comments';
 import { GotCovered, GotCoveredImage } from './assets/GotCovered/GotCovered';
+import Growth from './assets/Growth/Growth';
+
 import NavBar from './assets/Navbar/NavBar';
 import Offers from './assets/Offers/Offers';
 import Plans from './assets/Plans/Plans';
@@ -25,10 +27,18 @@ function App() {
       <div className="Offer-container">
         <Offers />
       </div>
-      <div className="comments-container got-covered-container">
-        <div className="comT covered"><Comments /></div>
-        <div className="commentImage coverImage"><CommentsImage /></div>
-      </div>
+      <section className="section">
+        <div className="comments-container got-covered-container">
+          <div className="comT covered"><Comments /></div>
+          <div className="commentImage coverImage"><CommentsImage /></div>
+        </div>
+        <div className="growth-container">
+          <Growth />
+        </div>
+      </section>
+      
+    
+      
     </div>
   );
 }

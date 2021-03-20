@@ -1,7 +1,8 @@
 .offers {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 65% 65%;
     grid-template-rows: 65% 65%;
     width: 100%;
+    height: 40vh;
     padding: 0px 0px 0px 15px;
   }
