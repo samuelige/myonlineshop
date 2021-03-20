@@ -6,6 +6,7 @@ import Growth from './assets/Growth/Growth';
 
 import NavBar from './assets/Navbar/NavBar';
 import Offers from './assets/Offers/Offers';
+import Partners from './assets/Partners/Partners';
 import Plans from './assets/Plans/Plans';
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
         </div>
         <div className="growth-container">
           <Growth />
+        </div>
+        <div className="partners-container">
+          <Partners />
         </div>
       </section>
       

@@ -6,7 +6,8 @@
 .plans-container,
 .Offer-container,
 .comments-container,
-.growth-container {
+.growth-container,
+.partners-container {
   width: 100%;
 }
 
@@ -71,4 +72,8 @@
   padding: 6% 0px 0px 0px;
   height: 70vh;
   box-sizing: border-box;
+}
+.partners-container {
+  height: 35vh;
+  padding: 7% 0px 0px 0px;
 }
