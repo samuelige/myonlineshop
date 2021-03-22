@@ -1,75 +1,104 @@
-.banner, .banner-text{
-    width: 100%;
+.banner,
+.banner-text {
+  width: 100%;
 }
 
 .banner {
-    inline-size: 100%;
-    color: #ffffff;
+  inline-size: 100%;
+  color: #ffffff;
 }
 
 .banner-text > h1 {
-    font-size: 60px;
-    font-weight: bolder;
-    text-align: center;
-    
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 11px;
 }
 
-
 .banner-text > p {
-    font-size: 20.6px ;
-    font-weight: bold;
-    text-align: center;
-    
+  font-size: 20.6px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .ban-first-pTag {
-   margin: 0.7% 0px 0px 0px; 
+  margin: 0.7% 0px 0px 0px;
 }
 
 .ban-second-pTag {
-    margin: 0.4% 0px 0px 0px; 
- }
-
- .banner-text {
-    margin: 0% 0px 34px 0px; 
- }
-
-
- .input-fields {
-     width: 59.4%;
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    height: 85px;
-    margin: 0px 0px 0px 20.3%;
-    padding: 1% 8px 0px 3%;
-    border-radius: 5px;
-    background: #ffffff;
-    
- }
-
- .build-website {
-    background-color: #B9CA49;
-    border:none;
-    width: 190px;
-    height: 55px;
-    color: #fff;
-    align-content: center;
-    font-size: 15px;
-    font-weight: bold;
-    /* margin: 0px 0px 0px 40px; */
-    border-radius: 5px;
-    outline-style: none;
-    /* margin-top: 3px; */
+  margin: 0.4% 0px 0px 0px;
 }
 
- .input-fields > input {
-     width: 35.5%;
-     border: none;
-     height: 40px;
-     margin: 1% 1% 0px 0px;
-     outline-style: none;
-     font-size: 16px;
- }
+.banner-text {
+  margin: 0% 0px 34px 0px;
+}
 
+.input-fields {
+  width: 59.4%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  height: 85px;
+  margin: 0px 0px 0px 20.3%;
+  padding: 1% 8px 0px 3%;
+  border-radius: 5px;
+  background: #ffffff;
+}
 
+.build-website {
+  background-color: #b9ca49;
+  border: none;
+  width: 190px;
+  height: 55px;
+  color: #fff;
+  align-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  /* margin: 0px 0px 0px 40px; */
+  border-radius: 5px;
+  outline-style: none;
+  /* margin-top: 3px; */
+}
+
+.input-fields > input {
+  width: 35.5%;
+  border: none;
+  height: 40px;
+  margin: 1% 1% 0px 0px;
+  outline-style: none;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 375px) {
+  .banner-text > h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .banner-text > p {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+
+  .input-fields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 0%;
+    height: 160px;
+  }
+
+  .input-fields > input {
+    width: 100%;
+    border: none;
+    height: 40px;
+    margin: 1% 1% 0px 0px;
+    outline-style: none;
+    font-size: 12px;
+  }
+
+  .build-website {
+    width: 100%;
+    font-size: 12px;
+  }
+}

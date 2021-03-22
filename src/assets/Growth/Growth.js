@@ -15,8 +15,8 @@ const Growth = () => {
             </div>
             <div className="growth">
                 <h1>Ready to growth your <br/> business?</h1>
-                <p>set your timer to 3 minutes and start by filling the form <br/>
-                below, after a few simple steps you will have yourself a <br/>
+                <p>set your timer to 3 minutes and start by filling the form 
+                below, after a few simple steps you will have yourself a 
                 website.
                 </p>
 

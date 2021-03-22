@@ -7,7 +7,8 @@
 .Offer-container,
 .comments-container,
 .growth-container,
-.partners-container {
+.partners-container,
+.footer-container {
   width: 100%;
 }
 
@@ -16,6 +17,7 @@
   border: 1px solid black;
   height: 92px;
   padding: 1.2% 12% 0px 9.3%;
+  align-items: center;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -24,17 +26,17 @@
 }
 
 .Banner-container {
-  height: 500px;
+  height: 560px;
   padding: 7% 0% 0px 0%;
   background: url(./assets/images/banner1.png);
   background-repeat: no-repeat;
   background-size: cover !important;
-  background-position: 50% 50% !important;
+  background-position: 61% 39% !important;
 }
 
 .section {
   overflow: hidden;
-  height: 300vh;
+  height: 280vh;
 }
 
 .got-covered-container {
@@ -74,6 +76,71 @@
   box-sizing: border-box;
 }
 .partners-container {
-  height: 35vh;
-  padding: 7% 0px 0px 0px;
+  height: 40vh;
+  padding: 8% 0px 0px 0px;
+}
+
+.footer-container {
+  background: #21325b;
+  padding: 3% 0px 0px 0px;
+  height: 40vh;
+}
+
+@media only screen and (max-width: 375px) {
+  .App {
+    /* overflow: hidden; */
+  }
+  .Nav-bar-container {
+    height: 320px;
+    padding: 1.2% 12% 0px 4%;
+  }
+
+  .Banner-container {
+    padding: 32% 0% 0px 0%;
+
+    background-position: top -50px left 0px !important;
+    overflow: hidden;
+  }
+
+  .got-covered-container {
+    width: 100%;
+    height: 170vh;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .covered {
+    width: 100%;
+  }
+
+  .plans-container {
+    padding: 0px 0px 0px 0px;
+    height: 470vh;
+  }
+
+  .Offer-container {
+    height: 110vh;
+    padding: 0px 0% 0px 0%;
+  }
+
+  .comments-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .growth-container {
+    height: 60vh;
+  }
+
+  .partners-container {
+    height: 60vh;
+    /* padding: 8% 0px 0px 0px; */
+  }
+
+  .footer-container {
+    height: 65vh;
+    overflow: hidden;
+  }
 }

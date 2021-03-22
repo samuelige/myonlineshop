@@ -1,34 +1,41 @@
-.tabs, 
+.tabs,
 .navigation {
-    width: 100%;
+  width: 100%;
 }
 
 .tabs {
-    margin: 6.5% 0px 0px 0px;
+  align-items: center;
+  margin: 4% 0px 0px 0px;
 }
 
 .navigation {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .navigation ul {
-    width: 100%;
-    display: flex;
-    /* justify-content: space-between; */
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
 }
 .navigation ul li {
-    list-style: none;
-    font-weight: bold;
-    margin-left: 10%; 
+  list-style: none;
+  font-weight: bold;
+  margin-left: 10%;
 }
 
 .navigation ul li:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
+@media only screen and (max-width: 375px) {
+  .navigation ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 44px;
+  }
 
-
-
-
-
-
+  .navigation ul li {
+    margin-left: 0px;
+  }
+}
