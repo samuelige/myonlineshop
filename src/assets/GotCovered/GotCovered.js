@@ -8,11 +8,20 @@ import rightDotSvg from '../svg/dots-2.svg'
 const GotCovered = () => {
     return (
         <div className="got-covered gt-covered">
-            <h1>We've Got You </h1>
-            <h1>Covered</h1>
-            <p className='first-pTag'>It doesn't matter what you sell, with </p>
-            <p>this platform you can get a website</p>
-            <p>faster than you can prepare breakfast.</p>
+            <h1 className='h1'>We've Got You </h1>
+            <h1 className='h1'>Covered</h1>
+            <h1 className="mobile-view-gt-h1">We've Got You Covered</h1>
+            <div className="gt-p-col">
+                <p className='first-pTag'>It doesn't matter what you sell, with </p>
+                <p>this platform you can get a website</p>
+                <p>faster than you can prepare breakfast.</p>
+            </div>
+            <div className="gt-p-col gt-p-col-mobile-view">
+                <p className='first-pTag'>It doesn't matter what you sell, with
+                this platform you can get a website
+                faster than you can prepare breakfast.
+            </p>
+            </div>
                 
             <Button className="start-now" children="Start Now"/>
         </div>

@@ -11,7 +11,7 @@ import './PlanCard.css'
 const PlanCard = () => {
     return (
         <div className="plan-card">
-            <img src={circle}  className="circle-svg" alt="circle svg"/>
+            {/* <img src={circle}  className="circle-svg" alt="circle svg"/> */}
     
             <section className="plans">
                 <div className="basic-card">
@@ -51,7 +51,56 @@ const PlanCard = () => {
                         <Button className="card-get-Started" children="Get Started" />
                     </div>
                 </div>
-                <div className="bigShop-card">
+                <div className="bigShip-main-container">
+                    <img src={circle}  className="circle-svg" alt="circle svg"/>
+                    <div className="bigShop-card">
+                        <div className="card-hearder">
+                            <p>Big <br/> <span>Shop</span> </p>
+                            <h1>&#8358;4,170 <span className="month">/mon</span></h1>
+                        </div>
+                        <div className="categories">
+                            <div className="item">
+                                <FaCheckCircle className="checked-icon"/>
+                                <p>Upload 200 Products</p>
+                            </div>
+                            <div className="item">
+                                <FaCheckCircle className="checked-icon"/>
+                                <p>Free .com Domain</p>
+                            </div>
+                            <div className="item">
+                                <FaCheckCircle className="checked-icon"/>
+                                <p>Live Chat</p>
+                            </div>
+                            <div className="item">
+                                <FaCheckCircle className="checked-icon"/>
+                                <p>Payment Integration</p>
+                            </div>
+                            <div className="item">
+                                <FaCheckCircle className="checked-icon"/>
+                                <p>Android App (Pay Annually)</p>
+                            </div>
+                            <div className="item">
+                                <FaCheckCircle className="checked-icon"/>
+                                <p>Logo Design (Pay Annually)</p>
+                            </div>
+                            <div className="item">
+                                <FaCheckCircle className="checked-icon"/>
+                                <p>Product Support</p>
+                            </div>
+                        </div>
+
+                        <div className="card-input-section">
+                            <select name="" id="" className="select">
+                                <option value="">Annually</option>
+                                <option value="">Monthly</option>
+                            </select>
+                            <input type="number" placeholder='1' className="text-input"/>
+                            <Button className="card-get-Started" children="Get Started" />
+                        </div>
+                    </div>
+                    <img src={dots} className="plan-dotssvg" alt="Dot svg"/>
+                </div>
+                {/* <div className="bigShop-card">
                     <div className="card-hearder">
                         <p>Big <br/> <span>Shop</span> </p>
                         <h1>&#8358;4,170 <span className="month">/mon</span></h1>
@@ -95,7 +144,7 @@ const PlanCard = () => {
                         <input type="number" placeholder='1' className="text-input"/>
                         <Button className="card-get-Started" children="Get Started" />
                     </div>
-                </div>
+                </div> */}
 
                 <div className="customPlan-card">
                     <div className="card-hearder">
@@ -136,7 +185,7 @@ const PlanCard = () => {
                 </div>
 
             </section>
-            <img src={dots} className="plan-dotssvg" alt="Dot svg"/>
+            {/* <img src={dots} className="plan-dotssvg" alt="Dot svg"/> */}
 
             <section className="all-plans">
                 <div className="all-plans-card">

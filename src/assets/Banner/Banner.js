@@ -11,8 +11,8 @@ const Banner = () => {
                 <p className="ban-second-pTag">website. Get it in the next 3 minutes</p>
             </div>
             <div className="input-fields">
-                <input type="text" placeholder="Name of your business"/>
-                <input type="email" placeholder="Email"/>
+                <input type="text"  placeholder="Name of your business"/>
+                <input type="email"  placeholder="Email"/>
                 <Button className='build-website' children="Build My Free Website"/>
             </div>
         </div>

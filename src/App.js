@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './assets/Banner/Banner';
 import { Comments, CommentsImage } from './assets/Comments/Comments';
+import Footer from './assets/Footer/Footer';
 import { GotCovered, GotCoveredImage } from './assets/GotCovered/GotCovered';
 import Growth from './assets/Growth/Growth';
 
@@ -40,7 +41,9 @@ function App() {
           <Partners />
         </div>
       </section>
-      
+      <div className="footer-container">
+        <Footer />
+      </div>
     
       
     </div>

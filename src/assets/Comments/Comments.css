@@ -1,25 +1,39 @@
-
 .heels {
-    width: 16%;
-    /* fill: #677788; */
-    margin:12% 0px 0px 0px;
+  width: 16%;
+  /* fill: #677788; */
+  margin: 12% 0px 0px 0px;
 }
 
 .comments > p {
-    font-weight: lighter;
-    color: #1e2022;
-    
+  font-weight: lighter;
+  color: #1e2022;
 }
 
-
 .comment-title {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .comment-title > h1 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .comment-title > small {
-    color: #677788;
+  color: #677788;
+}
+
+@media only screen and (max-width: 375px) {
+  .heels {
+    width: 36%;
+  }
+  .comments > p {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .comments > .your-Design {
+    margin-top: 35px;
+  }
+
+  .comment-title > h1 {
+    font-size: 18px;
+  }
 }
