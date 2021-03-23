@@ -71,14 +71,12 @@
 .growthImage-right {
   transform: scale(4) rotate(11deg) translate(20px, 11px) skew(28deg, -25deg);
   margin: 75px 81px 0px 0px;
-  /* transform: scale(1.6) skew(35deg, -23deg); */
 }
 
 .ipad,
 .iphone {
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: 70% 30%; */
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: 50% 50% !important;
@@ -110,16 +108,6 @@
   width: 32px;
   margin: -5px 0px 0px -9px;
   position: absolute;
-}
-
-.dotItem2 {
-  /* margin: 100px 0px 0px 0px; */
-}
-
-.clear-float {
-  clear: both;
-  font-size: 0;
-  height: 0;
 }
 
 @media only screen and (max-width: 375px) {

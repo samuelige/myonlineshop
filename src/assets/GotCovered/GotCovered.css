@@ -42,7 +42,6 @@
 
 .start-now {
   background-color: #b9ca49;
-  /* border-color: #B9CA49; */
   border: none;
   width: 173px;
   height: 60px;
@@ -71,9 +70,6 @@
 }
 
 .rightDotSvg {
-  /* margin:-350px 0px 0px 342px; */
-  /* margin: -40% 0px 0px 38%; */
-  /* position: fixed; */
   float: right;
   margin: -320px 120px 0px 0px;
 
@@ -83,7 +79,6 @@
 .image-item {
   width: 67%;
   height: 90vh;
-  /* width: 400px; */
   margin: -323px 0px 0px 49px;
   border-radius: 1%;
   position: relative;
@@ -120,7 +115,6 @@
   }
 
   .start-now {
-    /* text-align: center; */
     margin: 50px 0px 0px 40px;
     width: 280px;
     height: 55px;

@@ -3,14 +3,8 @@
   width: 100%;
 }
 
-.plan-card {
-  /* margin-top: 2px; */
-}
-
 .bigShip-main-container > .circle-svg {
-  /* float: left; */
   left: 725px;
-
   height: 160px;
   width: 160px;
   position: absolute;
@@ -34,7 +28,7 @@
   margin-top: 2px;
 
   padding: 0px 0px 0px 11%;
-  height: 110vh;
+  height: 800px;
 }
 
 .plan-dotssvg {
@@ -54,7 +48,6 @@
   width: 27.5%;
   padding: 25px 0px 0px 25px;
   background: #fff;
-  /* margin-top: 50px; */
   border-radius: 5px;
 }
 
@@ -74,7 +67,6 @@
   width: 20%;
   align-items: center;
   align-content: center;
-  /* margin: 0px 10px 0px 0px; */
 }
 
 .card-hearder > h1 {
@@ -237,7 +229,6 @@
 
 @media only screen and (max-width: 375px) {
   .plan-card {
-    /* height: 400vh; */
     margin-top: 0px;
   }
 
@@ -251,18 +242,11 @@
     padding: 0px 0px 0px 0px;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
-    /* width: 100%; */
     height: 360vh;
   }
 
   .bigShip-main-container > .circle-svg {
-    /* float: left; */
     left: 300px;
-
-    /* height: 160px;
-    width: 160px;
-    position: absolute; */
   }
 
   .basic-card,
@@ -306,8 +290,6 @@
 
   .customPlan-card {
     margin-top: -30px !important ;
-    /* margin-top: 10px; */
-    /* margin: -30px 0px 0px 0px; */
   }
 
   .customPlan-card > .card-hearder > h5 {
@@ -331,8 +313,6 @@
     display: flex;
     flex-direction: column;
     height: 240px;
-
-    /* margin-top: 1%; */
   }
   .all-plans-btn {
     width: 100%;
@@ -343,6 +323,5 @@
   .allPlans-btn-container {
     width: 50%;
     margin: 15px 0px 0px 70px;
-    /* border: none; */
   }
 }
